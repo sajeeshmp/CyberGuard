@@ -1,35 +1,29 @@
 from predict import predict_message
+from scam_predict import predict_scam
 
 
 def analyze_text(message: str) -> dict:
-    """
-    Public interface for CyberGuard's ML text classifier.
+    """Analyze a message using the original SMS spam model."""
 
-    Returns the prediction, estimated spam probability,
-    explanation, model type, and warning.
-    """
+    return predict_message(message)
 
-    result = predict_message(message)
 
-    return {
-        "prediction": result["prediction"],
-        "spam_probability": result["spam_probability"],
-        "explanation": result["explanation"],
-        "model_type": result["model_type"],
-        "warning": result["warning"],
-    }
+def analyze_scam(message: str) -> dict:
+    """Analyze a message using CyberGuard's scam classifier."""
+
+    return predict_scam(message)
 
 
 if __name__ == "__main__":
-    sample = (
-        "Your bank account will be blocked. "
-        "Verify your KYC immediately."
+    test_message = (
+        "Police have linked your Aadhaar to a criminal case. "
+        "Pay money to avoid arrest."
     )
 
-    output = analyze_text(sample)
+    print("========== CYBERGUARD ML SERVICE ==========")
 
-    print("CyberGuard ML Service")
-    print("---------------------")
+    print("\n1. Original SMS spam model:")
+    print(analyze_text(test_message))
 
-    for key, value in output.items():
-        print(f"{key}: {value}")
+    print("\n2. CyberGuard scam model:")
+    print(analyze_scam(test_message))
