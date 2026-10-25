@@ -1,0 +1,11 @@
+message,label,category
+"Your bank account will be blocked today. Verify your KYC immediately using this link.",scam,bank_phishing
+"Congratulations! You have won a free prize. Click the link to claim your reward.",scam,prize_scam
+"Police have linked your Aadhaar to a criminal case. Pay immediately to avoid arrest.",scam,digital_arrest
+"Your parcel is waiting. Pay an unexpected delivery fee using this suspicious link.",scam,delivery_scam
+"Your account has been suspended. Share your OTP to restore access.",scam,credential_theft
+"URGENT: Transfer money now to avoid legal action.",scam,financial_fraud
+"Hey, I will meet you at the bus stop at 5 PM.",legitimate,normal_message
+"Thank you for attending the meeting. The notes are attached.",legitimate,normal_message
+"Your appointment is confirmed for tomorrow at 10 AM.",legitimate,service_notification
+"Please call me when you reach home.",legitimate,normal_message
