@@ -1,0 +1,17 @@
+message,label,category
+"Your bank account will be blocked. Verify your KYC immediately using this link.",scam,bank_phishing
+"Police have linked your Aadhaar to a criminal case. Pay money to avoid arrest.",scam,digital_arrest
+"Share your OTP immediately to prevent your account from being suspended.",scam,credential_theft
+"Congratulations! You won a prize. Pay a processing fee to claim it.",scam,prize_scam
+"Your electricity connection will be disconnected today. Pay immediately using this link.",scam,utility_scam
+"Your parcel is on hold. Pay an unexpected fee using this suspicious link.",scam,delivery_scam
+"Send money immediately or you will face legal action.",scam,financial_fraud
+"Your bank has detected suspicious activity. Click this link to verify your password.",scam,bank_phishing
+"Hey, I will meet you at the bus stop at 5 PM.",legitimate,normal_message
+"Please call me when you reach home.",legitimate,normal_message
+"Your appointment is confirmed for tomorrow at 10 AM.",legitimate,service_notification
+"Thank you for attending the meeting. The notes are attached.",legitimate,normal_message
+"Your monthly bank statement is now available through your usual banking app.",legitimate,bank_notification
+"Your electricity bill payment was received successfully.",legitimate,utility_notification
+"Your parcel has been delivered to the reception desk.",legitimate,delivery_notification
+"Your meeting has been rescheduled to Friday afternoon.",legitimate,normal_message
