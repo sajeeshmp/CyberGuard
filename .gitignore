@@ -29,3 +29,19 @@ models/*.joblib
 .vscode/
 .DS_Store
 Thumbs.db
+# Experimental SMS dataset
+data/processed/
+
+# Local SMS spam dataset
+data/raw/SMSSpamCollection
+
+# Backup and duplicate training datasets
+data/raw/*backup*.csv
+data/raw/*old*.csv
+data/raw/* copy*.csv
+
+# Experimental SMS scripts
+ml/expriment_sms_model.py
+# Duplicate expanded dataset
+data/raw/cyberguard_training_expanded.csv
+
