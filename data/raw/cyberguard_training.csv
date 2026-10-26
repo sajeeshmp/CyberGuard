@@ -1,17 +1,201 @@
 message,label,category
-"Your bank account will be blocked. Verify your KYC immediately using this link.",scam,bank_phishing
-"Police have linked your Aadhaar to a criminal case. Pay money to avoid arrest.",scam,digital_arrest
-"Share your OTP immediately to prevent your account from being suspended.",scam,credential_theft
-"Congratulations! You won a prize. Pay a processing fee to claim it.",scam,prize_scam
-"Your electricity connection will be disconnected today. Pay immediately using this link.",scam,utility_scam
-"Your parcel is on hold. Pay an unexpected fee using this suspicious link.",scam,delivery_scam
-"Send money immediately or you will face legal action.",scam,financial_fraud
-"Your bank has detected suspicious activity. Click this link to verify your password.",scam,bank_phishing
-"Hey, I will meet you at the bus stop at 5 PM.",legitimate,normal_message
-"Please call me when you reach home.",legitimate,normal_message
-"Your appointment is confirmed for tomorrow at 10 AM.",legitimate,service_notification
-"Thank you for attending the meeting. The notes are attached.",legitimate,normal_message
-"Your monthly bank statement is now available through your usual banking app.",legitimate,bank_notification
-"Your electricity bill payment was received successfully.",legitimate,utility_notification
-"Your parcel has been delivered to the reception desk.",legitimate,delivery_notification
-"Your meeting has been rescheduled to Friday afternoon.",legitimate,normal_message
+URGENT: Your bank account will be suspended today unless you verify your KYC immediately.,scam,bank_phishing
+Your debit card has been temporarily blocked. Confirm your details to restore access.,scam,bank_phishing
+A security issue was detected on your bank account. Reply with your account details to avoid closure.,scam,bank_phishing
+Your bank profile is incomplete. Use the link in this message to prevent account restrictions.,scam,bank_phishing
+Unusual activity detected. Act now to secure your account or it may be frozen.,scam,bank_phishing
+Your bank account will expire today. Verify your identity immediately to continue using it.,scam,bank_phishing
+Final notice: update your KYC now or your banking services will be stopped.,scam,bank_phishing
+We detected a failed login. Send your one-time password to confirm that it is you.,scam,bank_phishing
+Your card has been selected for a security review. Share your PIN to release the hold.,scam,bank_phishing
+Your online banking access will be disabled unless you confirm your password today.,scam,bank_phishing
+A refund is waiting in your bank account. Enter your login details to receive it.,scam,bank_phishing
+Your account has been flagged. Click the message link and enter your full banking credentials.,scam,bank_phishing
+Your bank transfer is on hold. Pay a small verification fee to release the funds.,scam,bank_phishing
+Your account will be permanently closed in one hour. Verify your identity through this link.,scam,bank_phishing
+We need your card number and CVV to complete a security check.,scam,bank_phishing
+This is a police notice. Your identity number is linked to a criminal case; stay on a video call.,scam,digital_arrest
+A digital arrest warrant has been issued against you. Do not disconnect this call.,scam,digital_arrest
+Your identity was used in an illegal shipment. Transfer money now to avoid arrest.,scam,digital_arrest
+We are calling from a cybercrime department. Keep this matter secret and follow our instructions.,scam,digital_arrest
+Your documents are linked to a serious investigation. Pay a refundable deposit to clear your name.,scam,digital_arrest
+You must remain on video while we verify your identity. Do not contact family or a lawyer.,scam,digital_arrest
+An arrest warrant will be activated unless you transfer the verification amount immediately.,scam,digital_arrest
+Your national ID is involved in money laundering. Move your savings to this safe account.,scam,digital_arrest
+This is a confidential police investigation. Do not tell anyone and share your banking screen.,scam,digital_arrest
+A case has been registered in your name. Pay the settlement amount today to avoid custody.,scam,digital_arrest
+Your phone number is linked to illegal activity. Keep your camera on for digital verification.,scam,digital_arrest
+We have intercepted a parcel linked to your identity. Pay the clearance amount now.,scam,digital_arrest
+Your identity documents are under investigation. Install this remote access app for questioning.,scam,digital_arrest
+You are under virtual surveillance. Do not disconnect or your family will be contacted.,scam,digital_arrest
+The court requires an immediate security deposit to cancel your digital arrest.,scam,digital_arrest
+Your email storage is full. Sign in through this unfamiliar link to prevent account deletion.,scam,credential_theft
+Your password expires today. Enter your current password and OTP to keep access.,scam,credential_theft
+A new device signed in to your account. Confirm your password using this link.,scam,credential_theft
+Your social media account will be deleted unless you verify your login details now.,scam,credential_theft
+Your mailbox has been locked. Open the attached form and enter your credentials.,scam,credential_theft
+You have won a verified badge. Sign in on this page to claim it.,scam,credential_theft
+Your account violated our rules. Enter your password to appeal immediately.,scam,credential_theft
+We found a problem with your cloud account. Provide your recovery code to restore files.,scam,credential_theft
+Your account recovery request is pending. Send us the security code you just received.,scam,credential_theft
+Your subscription login failed. Enter your password and card details to reactivate it.,scam,credential_theft
+A security alert needs action. Type your password into this linked form.,scam,credential_theft
+Your account has unusual activity. Share the recovery phrase to protect your files.,scam,credential_theft
+Your profile will be suspended unless you confirm your username and password.,scam,credential_theft
+Your account verification failed. Reply with the one-time code to complete the process.,scam,credential_theft
+Your files will be deleted today. Sign in through this message to back them up.,scam,credential_theft
+Congratulations! You won a large cash prize. Pay a processing fee to receive it.,scam,prize_scam
+Your phone number won a lottery you never entered. Send your bank details to claim.,scam,prize_scam
+You have been selected for a free car. Pay delivery charges today to secure your prize.,scam,prize_scam
+A surprise grant is reserved for you. Pay a registration fee before the deadline.,scam,prize_scam
+You won a gift card worth thousands. Share the OTP to confirm your reward.,scam,prize_scam
+Your email was randomly chosen for a cash award. Reply with your identity details.,scam,prize_scam
+Claim your prize in the next hour by paying a refundable tax fee.,scam,prize_scam
+You are the lucky winner of an international lottery. Send your account number to receive funds.,scam,prize_scam
+A celebrity giveaway selected you. Pay a small release fee to collect your reward.,scam,prize_scam
+Your prize has been approved. Send a copy of your ID and bank card to process it.,scam,prize_scam
+"You have won a shopping voucher, but you must pay a verification charge first.",scam,prize_scam
+Your name was selected for a government reward. Transfer a fee to unlock the grant.,scam,prize_scam
+You are entitled to unexpected inheritance funds. Pay legal charges before receiving them.,scam,prize_scam
+"Congratulations, your number won a lucky draw. Share your card CVV to claim the cash.",scam,prize_scam
+A free holiday is yours. Pay a booking confirmation fee immediately.,scam,prize_scam
+Your parcel is on hold due to an address issue. Pay a small fee using this link.,scam,delivery_scam
+Delivery failed. Enter your card details to schedule another attempt.,scam,delivery_scam
+Your package will be returned today unless you pay an urgent customs charge.,scam,delivery_scam
+A parcel addressed to you is waiting. Confirm your identity and pay a release fee.,scam,delivery_scam
+Your shipment is delayed. Open this unfamiliar link and enter your banking password.,scam,delivery_scam
+Your delivery address is incomplete. Provide your card number to update it.,scam,delivery_scam
+A small redelivery charge is due. Pay now or your parcel will be destroyed.,scam,delivery_scam
+Your package is held by customs. Transfer the fee to this personal account.,scam,delivery_scam
+We could not deliver your parcel. Share the OTP to confirm the new delivery slot.,scam,delivery_scam
+Your shipment requires identity verification. Upload your ID through this message link.,scam,delivery_scam
+Your parcel has an unpaid fee. Click here and enter your card security code.,scam,delivery_scam
+Your delivery is blocked. Install this tracking app from the attached file.,scam,delivery_scam
+Your electricity service will be disconnected tonight. Pay immediately through this link.,scam,utility_scam
+Your gas bill is overdue. Share your card details to prevent service termination.,scam,utility_scam
+Your water account is suspended. Pay a reconnection fee to restore service.,scam,utility_scam
+Final warning: your utility meter will be disabled unless you pay this amount now.,scam,utility_scam
+Your mobile number will be blocked today. Recharge through this unfamiliar link.,scam,utility_scam
+Your internet service is at risk. Enter your bank password to clear the bill.,scam,utility_scam
+A utility refund is due. Provide your OTP to receive the payment.,scam,utility_scam
+Your electricity subsidy is approved. Pay a processing fee to activate it.,scam,utility_scam
+Your bill payment failed. Send your card CVV to complete the transaction.,scam,utility_scam
+Your prepaid service will expire. Install the attached app to renew your account.,scam,utility_scam
+A meter inspection penalty is pending. Transfer money to avoid disconnection.,scam,utility_scam
+Your utility account needs urgent verification. Share your identity documents on this link.,scam,utility_scam
+Guaranteed investment returns every day. Transfer your savings now to secure your profit.,scam,financial_fraud
+Your loan is approved without checks. Pay an advance fee to release the money.,scam,financial_fraud
+We can erase your debt today. Send your banking password to verify your account.,scam,financial_fraud
+An investment opportunity closes in ten minutes. Borrow money and transfer it now.,scam,financial_fraud
+Your tax refund is ready. Pay a release charge and provide your card details.,scam,financial_fraud
+"You qualify for a large loan, but a processing deposit is required first.",scam,financial_fraud
+A trading expert guarantees you will double your money this week. Send funds now.,scam,financial_fraud
+Your account will receive a refund after you pay a small verification amount.,scam,financial_fraud
+We can recover money you lost online. Pay an upfront recovery fee immediately.,scam,financial_fraud
+Your pension payment is blocked. Send your OTP to release it.,scam,financial_fraud
+A debt collector demands immediate payment through gift cards to avoid arrest.,scam,financial_fraud
+Your credit score can be fixed instantly. Pay us and send your identity documents.,scam,financial_fraud
+Your account has been selected for a secret bonus. Keep it private and send the OTP.,scam,misc_scam
+A recruiter offers a high-paying job but asks you to pay for mandatory training first.,scam,misc_scam
+You can earn money from home by depositing funds into this account today.,scam,misc_scam
+Your friend is in trouble and needs an urgent money transfer to this new account.,scam,misc_scam
+Good morning! Hope you have a pleasant day.,legitimate,normal_message
+Are we still meeting for lunch at one o'clock?,legitimate,normal_message
+I have reached the office safely.,legitimate,normal_message
+Thank you for helping me with the assignment yesterday.,legitimate,normal_message
+Please let me know when you are free to talk.,legitimate,normal_message
+The meeting has moved to the conference room on the second floor.,legitimate,normal_message
+I will be ten minutes late because of traffic.,legitimate,normal_message
+Your notes from today's class were very helpful.,legitimate,normal_message
+Dinner is ready whenever you get home.,legitimate,normal_message
+I will call you after I finish work.,legitimate,normal_message
+Please bring the book I lent you last week.,legitimate,normal_message
+The team meeting starts at 3 PM as planned.,legitimate,normal_message
+I have shared the presentation in our class group.,legitimate,normal_message
+Thanks for confirming the time for tomorrow.,legitimate,normal_message
+The library closes at six this evening.,legitimate,normal_message
+Your monthly bank statement is available in the official banking app.,legitimate,bank_notification
+"A purchase was made with your card. If you do not recognize it, contact your bank using its official number.",legitimate,bank_notification
+Your salary credit has been recorded. Check your account through your usual banking channel.,legitimate,bank_notification
+Your scheduled loan payment was processed successfully.,legitimate,bank_notification
+Your bank branch will open at its regular time tomorrow.,legitimate,bank_notification
+Your debit card replacement request has been received. Track it through the official app.,legitimate,bank_notification
+A deposit was credited to your account. Sign in through your usual banking app to view details.,legitimate,bank_notification
+Your standing instruction was processed. Contact the bank through its official website if you have questions.,legitimate,bank_notification
+Your monthly account summary is ready in online banking.,legitimate,bank_notification
+Your card payment was declined. Please contact your bank through the number printed on your card.,legitimate,bank_notification
+Your fixed deposit maturity date is approaching. Review the details in your official banking app.,legitimate,bank_notification
+Your cheque has been processed. Check the account statement for the entry.,legitimate,bank_notification
+Your bank appointment is confirmed for Thursday at 11 AM.,legitimate,bank_notification
+Your request to update your mailing address has been received.,legitimate,bank_notification
+Your debit card was delivered. Follow the bank's official instructions to activate it.,legitimate,bank_notification
+Your appointment is confirmed for tomorrow at 10 AM. Thank you.,legitimate,service_notification
+Your subscription renews on the date shown in your account settings.,legitimate,service_notification
+The maintenance window is scheduled for Sunday from 1 AM to 3 AM.,legitimate,service_notification
+"Your password was changed successfully. If this was not you, visit the service's official website directly.",legitimate,service_notification
+Your support ticket has been received. Your reference number is listed in your account.,legitimate,service_notification
+Your booking confirmation is available in the app you used to make the reservation.,legitimate,service_notification
+The requested document is ready for collection at the front desk.,legitimate,service_notification
+Your membership renewal was completed successfully.,legitimate,service_notification
+Your scheduled service visit is confirmed for Friday afternoon.,legitimate,service_notification
+The office will be closed for the public holiday tomorrow.,legitimate,service_notification
+Your online order receipt is available in your account history.,legitimate,service_notification
+Your account settings were updated as requested.,legitimate,service_notification
+Your application was received. You can check its status through the official portal.,legitimate,service_notification
+Your class registration is complete. The timetable is available on the school website.,legitimate,service_notification
+Your payment receipt has been issued and saved to your account.,legitimate,service_notification
+Your parcel is out for delivery today. Track it using the courier's official app.,legitimate,delivery_notification
+Your package was delivered to the reception desk.,legitimate,delivery_notification
+The courier will attempt delivery again tomorrow.,legitimate,delivery_notification
+Your order has shipped. The tracking number is available in your order history.,legitimate,delivery_notification
+Your delivery window is between 2 PM and 5 PM today.,legitimate,delivery_notification
+Your package is ready for pickup at the designated collection point.,legitimate,delivery_notification
+The delivery address was updated as requested in your account.,legitimate,delivery_notification
+Your return parcel was received by the warehouse.,legitimate,delivery_notification
+Your order has been packed and is awaiting collection by the courier.,legitimate,delivery_notification
+Your delivery was rescheduled for the date you selected.,legitimate,delivery_notification
+Your parcel is delayed due to weather. Check the courier's official tracking page for updates.,legitimate,delivery_notification
+The courier could not reach you. Use the official app to choose another delivery time.,legitimate,delivery_notification
+Your order was delivered according to the tracking record.,legitimate,delivery_notification
+Your return request has been approved. Instructions are available in your order account.,legitimate,delivery_notification
+Your pickup appointment is confirmed for tomorrow morning.,legitimate,delivery_notification
+Your electricity bill is available in the provider's official app.,legitimate,utility_notification
+Your utility payment was received successfully.,legitimate,utility_notification
+The planned water supply maintenance will take place on Tuesday morning.,legitimate,utility_notification
+Your meter reading appointment is confirmed for next week.,legitimate,utility_notification
+Your mobile plan renews on the date shown in your provider account.,legitimate,utility_notification
+A scheduled power outage is planned in your area from 10 AM to noon.,legitimate,utility_notification
+Your internet service visit is booked for Saturday.,legitimate,utility_notification
+Your gas bill payment receipt is available in your account.,legitimate,utility_notification
+Your prepaid balance is low. Recharge through your provider's official app if needed.,legitimate,utility_notification
+Your service request has been registered. The reference number is in your account.,legitimate,utility_notification
+Your broadband plan has been renewed successfully.,legitimate,utility_notification
+Your utility bill due date is listed on your monthly statement.,legitimate,utility_notification
+Your water connection maintenance request has been received.,legitimate,utility_notification
+Your mobile data allowance resets tomorrow.,legitimate,utility_notification
+Your electricity payment is recorded. Please keep the receipt for your records.,legitimate,utility_notification
+Reminder: the project submission deadline is Friday at 5 PM.,legitimate,school_work_notification
+The lab session will begin at 9 AM in Room 204.,legitimate,school_work_notification
+Your assignment has been received by the learning portal.,legitimate,school_work_notification
+The staff meeting has been moved to Wednesday afternoon.,legitimate,school_work_notification
+Please review the meeting agenda before tomorrow's discussion.,legitimate,school_work_notification
+Your exam timetable is available on the official college portal.,legitimate,school_work_notification
+The workshop registration is confirmed. Details were sent to your school email.,legitimate,school_work_notification
+The team has uploaded the revised document to the shared workspace.,legitimate,school_work_notification
+Your leave request has been received by the office.,legitimate,school_work_notification
+The library book is due next Monday. Renew it through the official library portal if needed.,legitimate,school_work_notification
+The seminar will be held in the main auditorium at 2 PM.,legitimate,school_work_notification
+Your course enrollment has been confirmed.,legitimate,school_work_notification
+The assignment feedback is now available in the learning portal.,legitimate,school_work_notification
+The meeting notes have been shared with all participants.,legitimate,school_work_notification
+Please bring your student ID for tomorrow's lab session.,legitimate,school_work_notification
+Your dental appointment is booked for Monday at 9:30 AM.,legitimate,appointment_notification
+Reminder: your clinic appointment is tomorrow afternoon.,legitimate,appointment_notification
+Your appointment has been rescheduled to the time you requested.,legitimate,appointment_notification
+Please arrive 15 minutes before your scheduled consultation.,legitimate,appointment_notification
+Your booking is confirmed. The appointment details are available in your account.,legitimate,appointment_notification
+Your annual check-up is due next month. Contact the clinic if you wish to book.,legitimate,appointment_notification
+Your consultation has been completed. Follow-up details are in your patient portal.,legitimate,appointment_notification
+Your appointment reminder preferences have been updated.,legitimate,appointment_notification
+The clinic will be closed on the public holiday.,legitimate,appointment_notification
+Your appointment request has been received and is awaiting confirmation.,legitimate,appointment_notification

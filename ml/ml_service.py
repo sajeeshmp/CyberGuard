@@ -1,5 +1,5 @@
-from predict import predict_message
-from scam_predict import predict_scam
+from ml.predict import predict_message
+from ml.scam_predict import predict_scam
 
 
 def analyze_text(message: str) -> dict:

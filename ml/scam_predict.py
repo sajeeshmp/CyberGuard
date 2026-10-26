@@ -1,4 +1,4 @@
-from scam_model import load_scam_model
+from ml.scam_model import load_scam_model
 
 
 def predict_scam(message: str) -> dict:
