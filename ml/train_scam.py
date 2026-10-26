@@ -1,8 +1,8 @@
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 
-from scam_preprocessing import load_scam_dataset
-from scam_model import create_scam_model, save_scam_model
+from ml.scam_preprocessing import load_scam_dataset
+from ml.scam_model import create_scam_model, save_scam_model
 
 
 def train_scam_model():
